@@ -11,9 +11,9 @@ html{
 }
 
 body{
-    background-color: #000000;
+    background-color: #000;
     color: #fff;
-   /* background-image: url(images/Tesla_logo.png);
+    /*background-image: url(images/Tesla_logo.png);
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
@@ -223,7 +223,9 @@ text-align: center;
 #portfolio{
   padding: 50px 0;
 }
-
+marquee{
+  display: none;
+}
 .work-list{
  
     display: grid;
@@ -269,7 +271,9 @@ text-align: center;
   font-weight: 500;
   margin-bottom: 20px;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .layer a{
   margin-top: 20px;
   color: #ff004f;
@@ -393,6 +397,12 @@ width: 100%;
 font-size: 16px;
 
 }
+
+#portfolio marquee{
+  color: #b54769;
+  display: block;
+}
+
 
 #navbar li{
   text-decoration: none;
